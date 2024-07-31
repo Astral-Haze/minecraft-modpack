@@ -1,7 +1,0 @@
-Bases used:
-
-Chia Egg, Flax Egg, Shortening, Wax = Minecraft
-
-Unfired Bakeware, Unfired Juicer = Pam's Harvestcraft
-
-Fiery Animation = Twilight Forest
