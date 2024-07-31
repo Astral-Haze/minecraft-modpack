@@ -1,0 +1,10 @@
+// Listen to item registry event
+GTCEuStartupEvents.registry('gtceu:material', event => {
+    event.create('azure_neodymium')
+        .ingot()
+        .color(0x1936B9).iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.GENERATE_PLATE)
+})
+/*
+Removal Zone For Test Materials:
+*/
