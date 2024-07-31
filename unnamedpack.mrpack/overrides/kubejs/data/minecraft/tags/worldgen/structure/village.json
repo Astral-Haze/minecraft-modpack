@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "repurposed_structures:city_overworld",
+    "terralith:fortified_village",
+    "terralith:fortified_desert_village",
+    "terralith:valley_lodge"
+  ]
+}

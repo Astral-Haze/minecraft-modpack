@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:story/smelt_iron",
+  "criteria": {
+    "get_hammer": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:tools/hammers"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Make a Hammer"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "gtceu:iron_hammer"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Can I smash everything?"
+    }
+  },
+  "requirements": [
+    [
+      "get_hammer"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

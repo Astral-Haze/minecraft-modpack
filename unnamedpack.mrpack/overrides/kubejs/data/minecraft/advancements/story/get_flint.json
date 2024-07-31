@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "get_flint": {
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:flint"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Get some Flint for tools"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:flint"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "7 Grand Dad"
+    }
+  },
+  "requirements": [
+    [
+      "get_flint"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

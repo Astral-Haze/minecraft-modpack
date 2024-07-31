@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:story/get_hammer",
+  "criteria": {
+    "get_pbf": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "gtceu:primitive_blast_furnace"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "We clown in this mf"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "gtceu:primitive_blast_furnace"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Baoshan Iron & Steel"
+    }
+  },
+  "requirements": [
+    [
+      "get_pbf"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

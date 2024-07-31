@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:story/get_flint",
+  "criteria": {
+    "get_binding": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "astral:binding"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Get some binding for your tools"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:string"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Together Forever"
+    }
+  },
+  "requirements": [
+    [
+      "get_binding"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

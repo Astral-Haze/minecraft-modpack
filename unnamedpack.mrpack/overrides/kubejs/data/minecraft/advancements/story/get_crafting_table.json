@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:story/get_flint",
+  "criteria": {
+    "get_crafting_table": {
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:crafting_table"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Get a Crafting Table"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "crafting_table"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Craftsperson"
+    }
+  },
+  "requirements": [
+    [
+      "crafting_table"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

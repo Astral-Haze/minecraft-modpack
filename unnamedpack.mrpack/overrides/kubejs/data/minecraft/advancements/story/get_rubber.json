@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:story/enter_the_nether",
+  "criteria": {
+    "get_rubber": {
+      "conditions": {
+        "items": [
+          {
+            "item": "gtceu:rubber_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Get some Rubber"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "gtceu:rubber_ingot"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Vulcanisation"
+    }
+  },
+  "requirements": [
+    [
+      "get_rubber"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

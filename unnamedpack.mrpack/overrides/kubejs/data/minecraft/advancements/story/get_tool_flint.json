@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:story/get_binding",
+  "criteria": {
+    "get_tool_flint": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "astral:tool_flint"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Make a tool from some Flint"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "kubejs:pickaxe_flint"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "The Fruits of Your Gravels"
+    }
+  },
+  "requirements": [
+    [
+      "get_tool_flint"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

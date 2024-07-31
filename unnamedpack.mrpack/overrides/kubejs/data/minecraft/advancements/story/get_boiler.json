@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:story/get_hammer",
+  "criteria": {
+    "get_boiler": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "astral:boiler"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Get a GTCEU boiler"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "gtceu:lp_steam_solid_boiler"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Steam Age"
+    }
+  },
+  "requirements": [
+    [
+      "get_boiler"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

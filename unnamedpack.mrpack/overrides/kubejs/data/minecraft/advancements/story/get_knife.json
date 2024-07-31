@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:story/get_flint",
+  "criteria": {
+    "get_knife": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:tools/knives"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "A knife may help for the time being"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "farmersdelight:flint_knife"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Stabbery"
+    }
+  },
+  "requirements": [
+    [
+      "get_knife"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
