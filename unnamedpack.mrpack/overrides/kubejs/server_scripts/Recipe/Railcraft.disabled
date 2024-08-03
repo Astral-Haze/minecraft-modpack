@@ -1,0 +1,14 @@
+// Listen to item tag event
+ServerEvents.tags('item', event => {
+  //Fix Railcraft saltpeter tag
+  event.remove('forge:dusts/salt', 'railcraft:saltpeter_dust')
+  event.add('forge:dusts/saltpeter', 'railcraft:saltpeter_dust')
+})
+//  --------  Listen for the "recipes" server event.  --------
+ServerEvents.recipes(event => {
+//REMOVE
+//rm minecraft:gunpowder
+//rm railcraft:brass_ingot_crafted_with_ingots
+//rm railcraft:bronze_ingot_crafted_with_ingots
+//rm railcraft:invar_ingot_crafted_with_ingots
+})
