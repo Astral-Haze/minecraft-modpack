@@ -1,4 +1,4 @@
-# minecraft-modpack
+# minecraft-modpack °͌͌͌͌͌͌͌͌͌͌͌͌͌͌͌͌͌͌͌͌͌͌͌͌͌
 //Currently very WIP
 Minecraft modpack centered around GTCEU for 1.20.1
 //I'm bad at names
