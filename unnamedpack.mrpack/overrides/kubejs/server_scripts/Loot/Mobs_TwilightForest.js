@@ -1,3 +1,4 @@
+//requires: twilightforest
 LootJS.modifiers((event) => {
     event
         .addEntityLootModifier("twilightforest:armored_giant")

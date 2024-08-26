@@ -1,3 +1,5 @@
+//requires: twilightforest
+//requires: twilightdelight
 LootJS.modifiers((event) => {
     event
         .addEntityLootModifier("minecraft:silverfish")
